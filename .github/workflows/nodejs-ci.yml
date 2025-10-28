@@ -20,7 +20,7 @@ jobs:
         run: npm install
         working-directory: backend
       - name: Lint
-        run: npm run lint
+        run: npx eslint .
         working-directory: backend
       - name: Run tests
         run: npm test --if-present
