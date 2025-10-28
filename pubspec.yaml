@@ -1,0 +1,36 @@
+name: moviles2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  mobile_scanner: ^3.3.0
+  fluttertoast: ^8.2.2
+  intl: ^0.18.1   
+  share_plus: ^7.0.0
+  fl_chart: ^0.71.0
+  flutter_tts: ^3.8.5
+  expandable: ^5.0.1
+  google_fonts: ^6.1.0 # Replace with the latest version
+  flutter_svg: ^2.0.9 # Replace with the latest version
+  carousel_slider: ^4.2.1 # Replace with the latest version
+  shimmer: ^3.0.0 # Replace with the latest version
+  animations: ^2.0.8
+  cupertino_icons: ^1.0.2
+  http: ^1.2.0
+  flutter_secure_storage: ^8.0.0
+  flutter_nfc_kit: ^3.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
