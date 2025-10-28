@@ -22,7 +22,6 @@ jobs:
       - name: Lint
         run: npm run lint
         working-directory: backend
-        continue-on-error: true  # Temporal mientras migras ESLint
       - name: Run tests
-        run: npm test
+        run: npm test --if-present
         working-directory: backend
